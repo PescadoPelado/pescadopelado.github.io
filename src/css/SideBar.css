@@ -1,0 +1,31 @@
+/* .bd-sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5rem;
+  display: block !important;
+  height: calc(100vh - 6rem);
+  padding-left: 0.25rem;
+  margin-left: -0.25rem;
+  overflow-y: auto;
+} */
+
+canvas {
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* small size screen */
+@media (max-width: 768px) {
+  .me-short-description {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 1vh;
+  }
+
+  .side-bar-image {
+    height: 50vh;
+  }
+}
+
+.socials-location {
+}
